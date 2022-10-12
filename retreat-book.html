@@ -56,44 +56,65 @@
   </section>
   <section class="information">
     <div class="container pt-5">
-      <div class="col-lg-7 mx-auto">
-        <div class="card p-lg-5 p-4">
-          <div class="row g-0">
-            <div class="col-12 mb-5">
-              <h3>Book Payment</h3>
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="card p-lg-5 p-4">
+            <div class="row g-0">
+              <div class="col-12 mb-5">
+                <h3>Book Payment</h3>
+              </div>
+              <div class="mb-4">
+                <form action="">
+                  <div class="row mb-4">
+                    <div class="col">
+                      <label>First name</label>
+                      <input type="text" class="form-control"/>
+                    </div>
+                    <div class="col">
+                      <label>Last name</label>
+                      <input type="text" class="form-control"/>
+                    </div>
+                  </div>
+                  <div class="row mb-4">
+                    <div class="col-12">
+                      <label>Email</label>
+                      <input type="email" class="form-control"/>
+                    </div>
+                  </div>
+                  <div class="row mb-4">
+                    <div class="col-12">
+                      <label>Phone number</label>
+                      <input type="tel" class="form-control"/>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 mb-4 pb-lg-3">
+                      <a href="" class="link--primary add-guest-link">Add another guest + </a>
+                    </div>
+                  </div>
+                  <button class="btn btn-success w-100">Pay now</button>
+                </form>
+              </div>
             </div>
-            <div class="mb-4">
-              <form action="">
-                <div class="row mb-4">
-                  <div class="col">
-                    <label>First name</label>
-                    <input type="text" class="form-control"/>
-                  </div>
-                  <div class="col">
-                    <label>Last name</label>
-                    <input type="text" class="form-control"/>
-                  </div>
-                </div>
-                <div class="row mb-4">
-                  <div class="col-12">
-                    <label>Email</label>
-                    <input type="email" class="form-control"/>
-                  </div>
-                </div>
-                <div class="row mb-4">
-                  <div class="col-12">
-                    <label>Phone number</label>
-                    <input type="tel" class="form-control"/>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12 mb-4 pb-lg-3">
-                    <a href="" class="link--primary add-guest-link">Add another guest + </a>
-                  </div>
-                </div>
-                <button class="btn btn-success w-100">Pay now</button>
-              </form>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card p-lg-5 p-4">
+            <div class="row">
+              <div class="col">Sutotal</div>
+              <div class="col text-end">&#8358;3,000</div>
             </div>
+            <div class="row mt-3">
+              <div class="col pt-2">Discount</div>
+              <div class="col text-end pe-0">
+                <input type="text" class="w-100 form-control text-end" placeholder="0" />
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col"><strong>Total</strong></div>
+              <div class="col text-end">&#8358;3,000</div>
+            </div>
+            <button class="btn btn-success w-100 mt-4">Pay now</button>
           </div>
         </div>
       </div>

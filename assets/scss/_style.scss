@@ -279,7 +279,7 @@ section {
     }
   }
   &.landing {
-    background: linear-gradient(to bottom, rgba($near-black, 1), rgba($near-black, .5)), url('../images/hero-bg.jpeg');
+    background: linear-gradient(to bottom, $blue 5%, rgba($near-black, .95) 25%, rgba($near-black, .75) 50%), url('../images/hero-bg.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;

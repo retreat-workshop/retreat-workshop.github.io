@@ -274,8 +274,13 @@ section {
       border: none;
       border-radius: 16px;
     }
-    .add-guest-link {
-      font-size: .95rem;
+    .add-guest-btn {
+      color: $green;
+      border-color: $green;
+      padding: .6rem 1.45rem;
+    }
+    small.text-uppercase {
+      color: rgba($near-black, .35);
     }
   }
   &.landing {
